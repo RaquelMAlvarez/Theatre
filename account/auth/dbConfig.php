@@ -1,9 +1,9 @@
 <?php
 $hn = "localhost";
 // this will be changed to  your username
-$un = "theatre_admin";
+$un = "raquel";
 // this will be your user password
-$pw = "*Zl5rx]DEk1kbhm0";
+$pw = "*iz1yqG6.fwPoHic/";
 $db = "theatre";
 
 // Create database connection

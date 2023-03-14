@@ -4,7 +4,8 @@
     ini_set('display_errors', 1);
     ini_set('display_startup_errors', 1);
     error_reporting(E_ALL);
-    define('ROOT_DIR', 'http://localhost/karen/theatreTemplate/');
+    define('ROOT_DIR', 'http://localhost:8040/RaquelAlvarez/Theatre/');
+    define('AUTH_DIR', 'http://localhost:8040/RaquelAlvarez/Theatre/account/dashboard/');
    
 ?>
 <!doctype html>
@@ -40,7 +41,7 @@
     <title>Navigation Blog With Dropdown + Search and Logo by okthapian. </title>
 
         <script src="https://cdn.tailwindcss.com"></script>
-        <link rel="stylesheet" href="<?= ROOT_DIR ?>assets/scss/app.css">
+        <link rel="stylesheet" href="<?= ROOT_DIR ?>assets/css/app.css">
 
     </head>
 <body class="bg-gray-200">
