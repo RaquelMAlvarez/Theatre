@@ -4,6 +4,7 @@
     include '../components/navigation.php';
     include '../account/auth/dbConfig.php';
 ?>
+<!-- push -->
 
 <?php
     include '../components/footer.php';
