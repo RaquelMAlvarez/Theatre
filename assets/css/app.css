@@ -5,3 +5,21 @@ burgundy-#590B19
 
     background-color: #590b19 !important;
 }
+.mary{
+    background-image: url(../images/mary_poppins.jpg);
+}
+
+.mask{
+
+    background-image: url(../images/ballet-production-performance-don-quixote-45258.jpeg);
+}
+
+.dance{
+
+    background-image: url(../images/dance\ color.jpeg);
+}
+
+.colormask{
+
+    background-image: url(../images/color\ mask.jpeg);
+}

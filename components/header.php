@@ -44,7 +44,7 @@
         <link rel="stylesheet" href="<?= ROOT_DIR ?>assets/css/app.css">
 
     </head>
-<body class="bg-gray-200">
+<body class="bg-yellow-50">
 
 <script src="//unpkg.com/alpinejs" defer></script>
 
