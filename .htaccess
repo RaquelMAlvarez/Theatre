@@ -20,6 +20,7 @@ RewriteEngine On
 RewriteRule ^login$ pages/login/index.php [L]
 RewriteRule ^register$ pages/register/index.php [L]
 RewriteRule ^blogs$ pages/blog/index.php [L]
+RewriteRule ^contact$ pages/contact/index.php [L]
 RewriteRule ^blogDetails/([0-9]+)$ pages/blog/details.php?blog_id=$1 [L]
 
 
