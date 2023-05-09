@@ -11,7 +11,7 @@
 <!-- component -->
 <!-- component -->
 <section class="text-gray-600 body-font bg-gray-50  flex justify-center items-center background color bg-red-300">
-  <div class="container px-5 py-24 mx-auto">
+  <div class="container px-8 py-24 mx-auto">
     <div class="flex flex-wrap -m-4 text-center">
       <div class="p-4 sm:w-1/2 lg:w-1/3 w-full hover:scale-105 duration-500">
         <div class=" flex items-center  justify-between p-4  rounded-lg bg-white shadow-indigo-50 shadow-md">
