@@ -37,12 +37,13 @@ echo $blogID;
                 <div class="flex flex-col lg:mx-6">
                 <h2 class="text-2xl font-extrabold text-gray-900"><?= $blogTitle ?></h2>
                 
-                    <a href="#" class="text-xl font-semibold text-gray-800 hover:underline dark:text-white ">
+                    <a href="#" class="text-xl font-semibold text-gray-800 dark:text-white ">
                     <?= $blogContent ?>
                     </a>
                     
                     <span class="text-sm text-gray-500 dark:text-gray-300"><?= $blogCreated ?></span>
                 </div>
+                <button onclick="window.location.href='blogDetails/<?= $blogID ?>';" class="text-ms">READ MORE>...</button>
             </div>
             <?php endwhile ?>
         </div>
