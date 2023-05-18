@@ -28,7 +28,7 @@ $user->fetch();
     <h1>Hi <?= $username ?>, welcome to your account page. You are currently logged in with the email address <?= $email ?>.
 </section>
 <p class="text-xl font-medium text-slate-700 mt-3">My Account</p>
-                <p class="mt-2 text-sm text-slate-500">Update details.</p>
+                <p class="mt-2 text-sm text-slate-500"></p>
             </div>
 
             <div onclick="window.location.href='comments'" 
@@ -42,6 +42,7 @@ $user->fetch();
                         <line x1="16" y1="17" x2="8" y2="17"></line>
                         <polyline points="10 9 9 9 8 9"></polyline>
                     </svg></span>
+                    <h2>Check Coments</h2>
                 
 
   <?php include '../../../components/footer.php'; ?>
