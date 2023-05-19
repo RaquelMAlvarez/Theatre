@@ -31,7 +31,7 @@ $user->fetch();
                 <p class="mt-2 text-sm text-slate-500"></p>
             </div>
 
-            <div onclick="window.location.href='comments'" 
+            <div onclick="window.location.href='../account/dashboard/user/userComments.php?uid=<?=$userId?>'" 
                 class="p-10 flex flex-col items-center text-center group md:lg:xl:border-r md:lg:xl:border-b hover:bg-slate-50 cursor-pointer">
                 <span class="p-5 rounded-full bg-orange-500 text-white shadow-lg shadow-orange-200"><svg
                         xmlns="http://www.w3.org/2000/svg" class="h-10 w-10" fill="none" viewBox="0 0 24 24"

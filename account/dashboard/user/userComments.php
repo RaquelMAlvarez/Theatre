@@ -4,7 +4,7 @@
      include '../../auth/dbConfig.php';
      include '../../../components/header.php';
      include '../../../components/navigation.php';
-    $userId = $_SESSION['id'];
+    $userId = $_GET['uid'];
      $userComments = $conn->prepare('SELECT 
 	
      c.id,
