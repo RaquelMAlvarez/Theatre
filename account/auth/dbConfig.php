@@ -2,8 +2,8 @@
 
 
 $hn = "localhost";
-$un = "karen_admin";
-$pw = "*Zl5rx]DEk1kbhm0";
+$un = "Admin";
+$pw = "([hQMEfyyyTenxd(";
 $db = "theatre";
 
 // Create database connection
