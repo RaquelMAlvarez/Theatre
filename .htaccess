@@ -26,7 +26,7 @@ RewriteRule ^blogDetails/([0-9]+)$ blog/details.php?blog_id=$1 [L]
 
 # User Navigation
 RewriteRule ^u/dashboard$ account/dashboard/user/index.php [L]
-# RewriteRule ^u/comments/([0-9]+)$ account/dashboard/user/userComments.php?uid=$1 [L]
+RewriteRule ^u/comments$ account/dashboard/user/userComments.php [L]
 RewriteRule ^u/account$ account/dashboard/user/account.php [L]
 
 

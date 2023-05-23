@@ -49,7 +49,7 @@
               <p class="mt-3 text-base leading-relaxed text-center text-gray-200">Comment by: <?= $username ?></p>
 
               <div class="w-full mt-6">
-                <button onclick="window.location.href='<?= ROOT_DIR ?>account/dashboard/admin/publishComment.php?cid=<?= $commentID ?>';" class="flex text-center items-center justify-center w-full pt-4 pr-10 pb-4 pl-10 text-base
+                <button onclick="window.location.href='<?= ROOT_DIR ?>account/dashboard/admin/config/publishComment.php?cid=<?= $commentID ?>';" class="flex text-center items-center justify-center w-full pt-4 pr-10 pb-4 pl-10 text-base
                     font-medium text-white rounded-xl transition duration-500 ease-in-out transform
                      focus:outline-none focus:ring-2 focus:ring-offset-2 bg-yellow-500">Publish</button>
               </div>

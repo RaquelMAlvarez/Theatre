@@ -20,7 +20,7 @@
           <div>
             <h2 class="text-gray-900 text-lg font-bold mb-10">Views Account</h2>
             <p class="text-sm font-semibold text-gray-400"></p>
-            <a href="../../../u/account" class="text-sm mt-6 px-4 py-2 bg-yellow-400 text-white rounded-lg  tracking-wider hover:bg-yellow-300 outline-none">Account</a>
+            <a href="account" class="text-sm mt-6 px-4 py-2 bg-yellow-400 text-white rounded-lg  tracking-wider hover:bg-yellow-300 outline-none">Account</a>
           </div>
           <div
             class="bg-gradient-to-tr from-yellow-500 to-yellow-400 w-32 h-32 rounded-full shadow-2xl shadow-yellow-400 border-white  border-dashed border-2  flex justify-center items-center ">
@@ -36,7 +36,7 @@
           <div>
             <h2 class="text-gray-900 text-lg font-bold mb-10">Views Reviews</h2>
             <p class="text-sm font-semibold text-gray-400"></p>
-            <a href="../account/dashboard/user/userComments.php?uid=<?=$userId?>" class="text-sm mt-6 px-4 py-2 bg-orange-400  text-white rounded-lg  tracking-wider hover:bg-orange-500 outline-none">Reviews</a>
+            <a href="comments" class="text-sm mt-6 px-4 py-2 bg-orange-400  text-white rounded-lg  tracking-wider hover:bg-orange-500 outline-none">Reviews</a>
           </div>
           <div
             class="bg-gradient-to-tr from-orange-500 to-orange-400 w-32 h-32  rounded-full shadow-2xl shadow-orange-400 border-white  border-dashed border-2  flex justify-center items-center ">
@@ -54,7 +54,7 @@
             <p class="text-sm font-semibold text-gray-400"></p>
 
             <p class="text-sm font-semibold text-gray-400"></p>
-            <a href="../../../blogs"  class="text-sm mt-6 px-4 py-2 bg-red-400  text-white rounded-lg  tracking-wider hover:bg-red-500 outline-none">Blogs</a>
+            <a href="../blogs"  class="text-sm mt-6 px-4 py-2 bg-red-400  text-white rounded-lg  tracking-wider hover:bg-red-500 outline-none">Blogs</a>
           </div>
           <div
             class="bg-gradient-to-tr from-red-500 to-red-400 w-32 h-32  rounded-full shadow-2xl shadow-red-400 border-white  border-dashed border-2  flex justify-center items-center ">
