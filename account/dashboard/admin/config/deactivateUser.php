@@ -1,17 +1,16 @@
 <?php
-session_start(); 
-include '../../../auth/dbConfig.php';
+    include '../../../auth/dbConfig.php';
 
+    $userId = $_GET['uid'];
 
-// if (!isset($_SESSION['loggedin'])) {
-//     header('Location: ../../../login/');
-//     exit;
-// }
-$uid = $_GET['uid'];
-$stmt = $conn->prepare('UPDATE users usr
-    set
-    usr.active = 0
-    where id = '.$uid.' ');
+    $deleteComments = $conn->prepare('DELETE FROM comments WHERE fk_userblog IN (SELECT id FROM userblog WHERE fk_user_id = '.$userId.')');
+    $deleteUserBlog = $conn->prepare('DELETE FROM userblog WHERE fk_user_id = '.$userId.'');
+    $deleteUser = $conn->prepare('DELETE FROM users WHERE users.id = '.$userId.' ');
 
-$stmt->execute();
-header("Location: ../../a/allUsers");
+    $deleteComments->execute();
+    $deleteUserBlog->execute();
+    $deleteUser->execute();
+
+    header('Location: ../../a/allUsers');
+
+    ?>

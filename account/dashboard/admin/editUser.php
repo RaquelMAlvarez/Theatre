@@ -53,7 +53,7 @@ $commentCount->fetch();
       </div>
     </div>
     <div class="flex-auto px-4 lg:px-10 py-10 pt-0">
-      <form action="../../../account/dashboard/admin/config/editUserConfig.php?uid=<?= $userId ?>" method="post" >
+      <form action="../updateUser/<?= $userId ?>" method="post" >
         <h6 class="text-blueGray-400 text-sm mt-3 mb-6 font-bold uppercase">
           User Information
         </h6>
